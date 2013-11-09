@@ -1,4 +1,4 @@
 huffman
 =======
 
-huffman encoding
+Tests for some attempts at huffman trees.
