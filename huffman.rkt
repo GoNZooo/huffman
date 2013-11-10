@@ -126,6 +126,11 @@
   (encode msg))
 
 (module+ main
-  (define msg "Feel the power, coursing through your veins. It's intoxicating...")
+  (define msg "This is some ridiculous shit and I'm not even going to attempt to understand it.")
 
-  (msg->encoded-msg/string msg))
+  (define encoded (msg->encoded-msg/string msg))
+  (string-length encoded)
+
+  ; Result taken from http://huffman.mihirmp.com/ for above msg
+  (define reference "010110001110001010111000101011110101011110101000111001100000010000010101100110101001011100111010111101000111000011111110111100001011101011110010111010111110010110111111000010010100011001110100010110001100010001110111011111110110110111000110100100110111110111011111100111100001010000011010100111101111000010111000011100100")
+  (string-length their))
